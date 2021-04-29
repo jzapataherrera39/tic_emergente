@@ -1,56 +1,50 @@
 <template>
   <v-app>
-    <v-app-bar
-      app
-      color="primary"
-      dark
-    >
-      <div class="d-flex align-center">
-        <v-img
-          alt="Vuetify Logo"
-          class="shrink mr-2"
-          contain
-          src="https://cdn.vuetifyjs.com/images/logos/vuetify-logo-dark.png"
-          transition="scale-transition"
-          width="40"
-        />
-
-        <v-img
-          alt="Vuetify Name"
-          class="shrink mt-1 hidden-sm-and-down"
-          contain
-          min-width="100"
-          src="https://cdn.vuetifyjs.com/images/logos/vuetify-name-dark.png"
-          width="100"
-        />
-      </div>
-
-      <v-spacer></v-spacer>
-
-      <v-btn
-        href="https://github.com/vuetifyjs/vuetify/releases/latest"
-        target="_blank"
-        text
-      >
-        <span class="mr-2">Latest Release</span>
-        <v-icon>mdi-open-in-new</v-icon>
-      </v-btn>
-    </v-app-bar>
+    
+      <div class="">
+       </div>
 
     <v-main>
-      <HelloWorld/>
+      <br>
+    
+      <h2 class="title">COMPETENCIAS TIC </h2>
+      <h3 class="title2">DIDACTICA Y PEDAGOGIA EMERGENTE</h3>
+      <br>
+     
+      <v-row justify="a">
+        
+    <v-img  class="my-4" 
+      src="../ilustracion/img/Fondo_inicio.png"
+      
+    >
+    </v-img>
+   
+  </v-row>
+<div class="icon">
+      <v-btn
+              x-large
+              color="primary"
+              large
+              elevation="50"
+              fab
+            >
+              <v-icon color="white">mdi-chevron-right</v-icon>
+            </v-btn>
+            </div>
+            
+           
     </v-main>
   </v-app>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld';
+
 
 export default {
   name: 'App',
 
   components: {
-    HelloWorld,
+    
   },
 
   data: () => ({
@@ -58,3 +52,44 @@ export default {
   }),
 };
 </script>
+
+<style>
+
+
+.title {
+  align-items: right;
+  align-content: right;
+  text-align: center;
+
+}
+.title2 {
+  align-items: right;
+  align-content: right;
+  text-align: center;
+  
+
+}
+
+.imgdiv {
+  align-content: center;
+  align-items: center;
+
+ 
+}
+
+
+.icon {
+    align-content: right;
+    align-items: right;
+    padding-left: 80%;
+    
+
+}
+.my-4{
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+text-align: center;
+min-height: 100vh;
+}
+
+</style>
