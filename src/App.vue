@@ -13,11 +13,7 @@
      
       <v-row justify="a">
         
-    <v-img  class="my-4" 
-      src="../ilustracion/img/Fondo_inicio.png"
-      
-    >
-    </v-img>
+   
    
   </v-row>
 <div class="icon">
@@ -31,8 +27,9 @@
               <v-icon color="white">mdi-chevron-right</v-icon>
             </v-btn>
             </div>
+         
+           <div :style="image"></div>
             
-           
     </v-main>
   </v-app>
 </template>
@@ -42,19 +39,26 @@
 
 export default {
   name: 'App',
-
+  
   components: {
     
   },
 
   data: () => ({
     //
+    return {
+        image: {backgroundImage: "url(../ilustracion/img/Fondo_inicio.png)"}    
+    
+    };
   }),
 };
 </script>
 
 <style>
 
+#app {
+    min-height: 100vh;
+}
 
 .title {
   align-items: right;
