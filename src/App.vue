@@ -41,17 +41,18 @@ export default {
   name: 'App',
   
   components: {
-    
-  },
 
-  data: () => ({
-    //
+  data: () =>{
     return {
-        image: {backgroundImage: "url(../ilustracion/img/Fondo_inicio.png)"}    
+        image: {backgroundImage: "url(../ilustracion/img/Fondo_inicio.png)"}   
     
-    };
-  }),
-};
+    }
+  }
+    
+}
+}
+
+
 </script>
 
 <style>
@@ -93,7 +94,6 @@ export default {
 -webkit-font-smoothing: antialiased;
 -moz-osx-font-smoothing: grayscale;
 text-align: center;
-min-height: 100vh;
 }
 
 </style>
