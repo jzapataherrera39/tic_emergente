@@ -11,17 +11,17 @@
       <h3 class="title2">DIDACTICA Y PEDAGOGIA EMERGENTE</h3>
       <br>
      
-      <v-row justify="a">
+     
         
    
    
-  </v-row>
+  
 <div class="icon">
       <v-btn
               x-large
               color="primary"
               large
-              elevation="50"
+              elevation="15"
               fab
             >
               <v-icon color="white">mdi-chevron-right</v-icon>
@@ -38,41 +38,49 @@
 
 
 export default {
-  name: 'App',
-  
+  name: 'App', 
   components: {
+    
+  },
+  
 
-  data: () =>{
+  data: () => {
+  
     return {
-        image: {backgroundImage: "url(../ilustracion/img/Fondo_inicio.png)"}   
+          
     
-    }
+    };
   }
-    
-}
-}
-
-
+};
 </script>
 
 <style>
 
 #app {
-    min-height: 100vh;
+  background: url('../ilustracion/img/Fondo_inicio.png') no-repeat center center fixed !important;
+  background-size: cover;
+  z-index:-1;
 }
 
 .title {
   align-items: right;
   align-content: right;
+  color: white;
   text-align: center;
 
 }
 .title2 {
   align-items: right;
   align-content: right;
+  color:  white;
   text-align: center;
   
 
+}
+
+body{
+  margin: 0; 
+  padding: 0;
 }
 
 .imgdiv {
@@ -82,18 +90,13 @@ export default {
  
 }
 
-
 .icon {
     align-content: right;
     align-items: right;
-    padding-left: 80%;
+    padding-left: 85%;
     
 
 }
-.my-4{
--webkit-font-smoothing: antialiased;
--moz-osx-font-smoothing: grayscale;
-text-align: center;
-}
+    
 
 </style>
