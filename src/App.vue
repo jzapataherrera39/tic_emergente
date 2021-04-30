@@ -13,7 +13,7 @@
      <v-img
       src="../ilustracion/img//01.png"
       max-width="600"
-      max-height="600"
+ 
     >
         </v-img>
    
@@ -61,6 +61,7 @@ export default {
 #app {
   background: url('../ilustracion/img/Fondo_inicio.png') no-repeat center center fixed !important;
   background-size: cover;
+  
 }
 
 .title {
@@ -96,6 +97,10 @@ body{
     align-content: right;
     align-items: right;
     padding-left: 85%;
+    position: relative;
+  bottom: 190px;
+   right: 300px;
+   font-size: 50px;
     
 
 }
