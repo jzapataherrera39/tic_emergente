@@ -7,24 +7,27 @@
     <v-main>
       <br>
     
-      <h2 class="title">COMPETENCIAS TIC </h2>
-      <h3 class="title2">DIDACTICA Y PEDAGOGIA EMERGENTE</h3>
+      <h1 class="title"><span style="font-size: 58px;">COMPETENCIAS TIC</span> </h1>
+      <h3 class="subtitle">DIDACTICA Y PEDAGOGIA EMERGENTE</h3>
       <br>
-     
-     
-        
+     <v-img
+      src="../ilustracion/img//01.png"
+      max-width="600"
+      max-height="600"
+    >
+        </v-img>
    
    
   
 <div class="icon">
       <v-btn
-              x-large
+              y-large
               color="primary"
-              large
-              elevation="15"
+              large="15"
+              elevation="30"
               fab
             >
-              <v-icon color="white">mdi-chevron-right</v-icon>
+              <v-icon color="white">start</v-icon>
             </v-btn>
             </div>
          
@@ -42,7 +45,6 @@ export default {
   components: {
     
   },
-  
 
   data: () => {
   
@@ -59,21 +61,25 @@ export default {
 #app {
   background: url('../ilustracion/img/Fondo_inicio.png') no-repeat center center fixed !important;
   background-size: cover;
-  z-index:-1;
 }
 
 .title {
-  align-items: right;
-  align-content: right;
-  color: white;
-  text-align: center;
+color:  white;
+text-align: right;
+position: relative;
+  bottom: -200px;
+   right: 200px;
+
 
 }
-.title2 {
-  align-items: right;
-  align-content: right;
+
+.subtitle {
   color:  white;
-  text-align: center;
+text-align: right;
+position: relative;
+  bottom: -220px;
+   right: 170px;
+   font-size: 35px;
   
 
 }
@@ -81,13 +87,9 @@ export default {
 body{
   margin: 0; 
   padding: 0;
-}
-
-.imgdiv {
-  align-content: center;
-  align-items: center;
-
- 
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 .icon {
