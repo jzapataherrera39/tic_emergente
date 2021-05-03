@@ -11,7 +11,7 @@
       <h3 class="subtitle">DIDACTICA Y PEDAGOGIA EMERGENTE</h3>
       <br>
      <v-img
-      src="../ilustracion/img//01.png"
+      src="./assets/Ilustraciones/01.png"
       max-width="600"
  
     >
@@ -59,7 +59,7 @@ export default {
 <style>
 
 #app {
-  background: url('../ilustracion/img/Fondo_inicio.png') no-repeat center center fixed !important;
+  background: url('./assets/Background/Fondo_inicio.png') no-repeat center center fixed !important;
   background-size: cover;
   
 }
