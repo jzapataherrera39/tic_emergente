@@ -1,15 +1,16 @@
 <template>
   <v-app>
-    <router-view> 
-
-    </router-view>
     
+      
+
   </v-app>
 </template>
+
 <script>
 
+
 export default {
-  name: 'App', 
+  name: 'entrada', 
   components: {
     
   },
@@ -27,7 +28,7 @@ export default {
 <style>
 
 #app {
-  background: url('./assets/Background/Fondo_inicio.png') no-repeat center center fixed !important;
+  background: url('../assets/Background/fondo_inicio2.jpg') no-repeat center center fixed !important;
   background-size: cover;
   
 }
