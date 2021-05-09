@@ -1,7 +1,26 @@
 <template>
   <v-app>
     
-      
+      <v-tabs 
+          right icons-and-text 
+          slider-color="light-blue" 
+          slider-size="3"
+          fixed-tabs
+          hide-slider
+          >
+
+          <v-tab :to="{ name: 'contenido' }" class="text-decoration-none mx-auto px-1 tabs_box">Contenido
+            <v-icon  x-large class="mb-5">fas fa-clone</v-icon>
+          </v-tab>
+
+          <v-tab :to="{ name: 'actividades' }" class="text-decoration-none mx-auto px-1 tabs_box">Actividades
+            <v-icon x-large class="mb-5">fas fa-list-ol</v-icon>
+          </v-tab>
+
+          <v-tab :to="{ name: 'evaluacion' }" class="text-decoration-none mx-auto px-1 tabs_box">Evaluación
+            <v-icon x-large class="mb-5">fas fa-clipboard-check</v-icon>
+          </v-tab>
+        </v-tabs>
 
   </v-app>
 </template>
