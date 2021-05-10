@@ -33,7 +33,7 @@
             </router-link>
             </div>
          
-           <div :style="image"></div>
+  
             
     </v-main>
   </v-app>
@@ -67,7 +67,7 @@ export default {
 }
 
 .title {
-color:  white;
+color:  rgb(255, 255, 255);
 text-align: right;
 position: relative;
   bottom: -200px;
