@@ -1,8 +1,7 @@
 <template>
   <v-app>
     
-      <div class="">
-       </div>
+    
 
     <v-main>
       <br>
@@ -10,9 +9,11 @@
       <h1 class="title"><span style="font-size: 58px;">COMPETENCIAS TIC</span> </h1>
       <h3 class="subtitle">DIDACTICA Y PEDAGOGIA EMERGENTE</h3>
       <br>
+      
      <v-img
       src="../assets/Ilustraciones/01.png"
       max-width="600"
+    
  
     >
         </v-img>
