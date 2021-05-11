@@ -21,15 +21,24 @@
             <v-icon x-large class="mb-5">fas fa-clipboard-check</v-icon>
           </v-tab>
         </v-tabs>
-           <div class="img">
-            <v-img
-          src="../assets/Ilustraciones/02.png"
-          >
-          </v-img>
-           </div>
+       
+ <v-img
+      src="../assets/Ilustraciones/03.png"
+      max-width="600"
+    
+ 
+    >
+ </v-img>
 
-
+      <div class="icon">
+         <v-img
+      src="../assets/Ilustraciones/02.png"
+     
+  >
+           </v-img>
+ </div>
   </v-app>
+
 </template>
 
 <script>
@@ -87,16 +96,16 @@ body{
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
-
-.img {
+.icon {
     align-content: right;
     align-items: right;
     padding-left: 50%;
     position: relative;
-  bottom: 90px;
-   right: 300px;
-  
-}
+  bottom: 450px;
+   right: -60px;
+   font-size: 50px;
     
+
+}
 
 </style>

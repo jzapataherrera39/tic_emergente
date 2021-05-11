@@ -2,12 +2,19 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Inicio from '../components/inicio.vue'
 
+import contenido from "../components/contenido";
+
 Vue.use(VueRouter)
 
 const routes = [{
         path: '/',
         name: 'inicio',
         component: Inicio
+    },
+    {
+        path: '/contenido',
+        name: 'contenido',
+        component: contenido,
     },
     {
         path: '/entrada',
