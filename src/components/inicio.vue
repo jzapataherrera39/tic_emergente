@@ -101,7 +101,7 @@ body{
     align-items: right;
     padding-left: 85%;
     position: relative;
-  bottom: 190px;
+  bottom: -190px;
    right: 300px;
    font-size: 50px;
     
