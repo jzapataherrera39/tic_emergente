@@ -3,10 +3,13 @@ import VueRouter from 'vue-router'
 import Inicio from '../components/inicio.vue'
 import contenido from "../components/contenido";
 import creditos from "../components/creditos";
-import entrada from "../components/entrada.vue";
+import entrada from "../components/entrada";
+import actividades from"../components/actividades";
 import acti1 from "../components/h5p/actividad1";
 import acti2 from "../components/h5p/actividad2";
-import actividades from"../components/actividades";
+import examen from "../components/examen";
+import eva1 from "../components/h5p/evaluacion1";
+
 Vue.use(VueRouter)
 
 const routes = [
@@ -40,14 +43,29 @@ const routes = [
               path: 'acti2',
               name: 'acti2',
               component: acti2,
-           }
+           },
+           {
+            path: '/examen',
+            name: 'examen',
+            component: examen,
+            children: [
+              {
+                 path: 'eva1',
+                 name: 'eva1',
+                 component: eva1,
+              },
+   
+                       ],
+          },
+           {
+            path: '/creditos',
+            name: 'creditos',
+            component: creditos,
+            },
         ],
         },
-        {
-         path: '/creditos',
-         name: 'creditos',
-         component: creditos,
-         },
+        
+         
         ],
     }
  ]
