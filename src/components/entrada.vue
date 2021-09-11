@@ -9,7 +9,7 @@
           hide-slider
           >
 
-          <v-tab :to="{ name: 'contenido' }" class="text-decoration-none mx-auto px-1 tabs_box">Contenido
+          <v-tab :to="{ name: 'contenido' }">Contenido
             <v-icon  x-large class="mb-5"></v-icon>
           </v-tab>
 
