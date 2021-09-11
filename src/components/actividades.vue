@@ -9,13 +9,13 @@
           </v-btn>
         </v-col> -->
         <v-col align="center">
-          <v-btn :to="{ name: 'acti1' }"  color="blue"  class="btn_background mx-5" block outlined dark rounded x-large>
+          <v-btn :to="{ name: 'acti1' }"  color="blue" >
             <!-- <v-icon class="my-n ml-n3" size="50"> mdi-gamepad-round-up </v-icon> -->
             <h1>ACTIVIDAD 1</h1>
           </v-btn>
         </v-col>
       <v-col align="center">
-          <v-btn :to="{ name: 'acti2' }"  color="pink"  class="btn_background mx-5" block outlined dark rounded x-large>
+          <v-btn :to="{ name: 'acti2' }"  color="greend" >
             <!-- <v-icon class="my-n ml-n3" size="50"> mdi-gamepad-round-up </v-icon> -->
             <h1>ACTIVIDAD 2</h1>
           </v-btn>

@@ -1,6 +1,6 @@
 <template>
   <v-container>
-   <div id="h5p-container">
+   <div id="h5p-container2">
 
    </div>
  
@@ -16,7 +16,7 @@ export default {
   }),
 
   mounted(){
-    const el = document.getElementById('h5p-container');
+    const el = document.getElementById('h5p-container2');
     const options = {
     h5pJsonPath: "/actividades/acti2",
     frameJs: "/actividades/frame.bundle.js",

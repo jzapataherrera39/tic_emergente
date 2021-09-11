@@ -15,8 +15,8 @@
             <h3>JORGE ANDRES ZAPATA HERRERA</h3>
           </div>
           <div class="parrafo_name">
-            <p>Tecnicas Avanzadas de Programación<br>
-              Programador/Diseñador/Investigador</p>
+            <p>Programador/Diseñador/Investigador<br>
+              Tester/Ciclista/Sprinter/Tec.Sistemas</p>
           </div>
         </div>
       </v-row>
@@ -28,8 +28,7 @@
             <h3>YULIANA DIAZ</h3>
           </div>
           <div class="parrafo_name">
-            <p>Tecnicas Avanzadas de Programación<br>
-               Investigadora</p>
+            <p>Investigadora</p>
           </div>
         </div>
       </v-row>
@@ -41,8 +40,7 @@
             <h3>MARIO SANTIAGO PEREZ VERGARA</h3>
           </div>
           <div class="parrafo_name">
-            <p>Tecnicas Avanzadas de Programación<br>
-              Investigador</p>
+            <p>Investigador</p>
           </div>
         </div>
       </v-row>
@@ -54,8 +52,7 @@
             <h3>MARIA JOSE PADILLA DUSSAN</h3>
           </div>
           <div class="parrafo_name">
-            <p>Tecnicas Avanzadas de Programación<br>
-              Investigadora</p>
+            <p> Investigadora</p>
           </div>
         </div>
       </v-row>
@@ -67,8 +64,7 @@
             <h3>MATTHEW ESPITIA RAMOS</h3>
           </div>
           <div class="parrafo_name">
-            <p>Tecnicas Avanzadas de Programación<br>
-              Investigador</p>
+            <p>Investigador</p>
           </div>
         </div>
       </v-row>

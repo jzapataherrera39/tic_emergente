@@ -3,13 +3,12 @@ import VueRouter from 'vue-router'
 import Inicio from '../components/inicio.vue'
 import contenido from "../components/contenido";
 import creditos from "../components/creditos";
-import entrada from "../components/entrada";
-import actividades from"../components/actividades";
+import entrada from "../components/entrada.vue";
 import acti1 from "../components/h5p/actividad1";
 import acti2 from "../components/h5p/actividad2";
-import examen from "../components/examen";
-import eva1 from "../components/h5p/evaluacion1";
-
+import actividades from"../components/actividades";
+import evaluacion from"../components/evaluacion.vue";
+import eva from "../components/h5p/evaluacion";
 Vue.use(VueRouter)
 
 const routes = [
@@ -34,7 +33,8 @@ const routes = [
           name: 'actividades',
           component: actividades,
           children: [
-            {
+
+          {
                path: 'acti1',
                name: 'acti1',
                component: acti1,
@@ -43,29 +43,27 @@ const routes = [
               path: 'acti2',
               name: 'acti2',
               component: acti2,
-           },
-           {
-            path: '/examen',
-            name: 'examen',
-            component: examen,
-            children: [
-              {
-                 path: 'eva1',
-                 name: 'eva1',
-                 component: eva1,
-              },
-   
-                       ],
-          },
-           {
-            path: '/creditos',
-            name: 'creditos',
-            component: creditos,
-            },
+           }
         ],
         },
-        
-         
+        {
+          path: '/evaluacion',
+          name: 'evaluacion',
+          component: evaluacion,
+          children: [
+            {
+               path: 'eva',
+               name: 'eva',
+               component: eva,
+            },
+
+        ],
+          },
+        {
+         path: '/creditos',
+         name: 'creditos',
+         component: creditos,
+         },
         ],
     }
  ]
