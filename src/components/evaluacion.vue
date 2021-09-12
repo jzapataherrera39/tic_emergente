@@ -2,12 +2,6 @@
   <v-container fluid class="background-contenido height">
     <v-row no-gutters >
       <v-row class="mr-5">
-      <!--  <v-col align="center">
-          <v-btn :to="{ name: 'decimal' }" color="indigo" class="btn_background mx-5" block outlined dark rounded x-large>
-            
-            <h1>decimal</h1>
-          </v-btn>
-        </v-col> -->
         <v-col align="center">
           <v-btn :to="{ name: 'eva' }"  color="blue" >
             <!-- <v-icon class="my-n ml-n3" size="50"> mdi-gamepad-round-up </v-icon> -->

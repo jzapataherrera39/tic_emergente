@@ -1,13 +1,13 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import Inicio from '../components/inicio.vue'
+import Inicio from '../components/inicio'
 import contenido from "../components/contenido";
 import creditos from "../components/creditos";
 import entrada from "../components/entrada.vue";
 import acti1 from "../components/h5p/actividad1";
 import acti2 from "../components/h5p/actividad2";
 import actividades from"../components/actividades";
-import evaluacion from"../components/evaluacion.vue";
+import evaluacion from"../components/evaluacion";
 import eva from "../components/h5p/evaluacion";
 Vue.use(VueRouter)
 
